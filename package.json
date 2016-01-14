@@ -1,0 +1,38 @@
+{
+  "name": "jpegs2mjpeg",
+  "version": "0.0.1",
+  "description": "Mjpeg-stream emulator",
+  "author": {
+    "name": "Dmitry Rybin",
+    "email": "postbox2020@yandex.ru"
+  },
+  "main": "index.js",
+  "directories": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jpegs2mjpeg",
+    "jpeg2mjpeg",
+    "mjpeg",
+    "mjpg",
+    "jpeg",
+    "jpg"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/y0track/jpegs2mjpeg.git"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "maintainers": [
+    {
+      "name": "Dmitry Rybin",
+      "email": "postbox2020@yandex.ru"
+    }
+  ],
+  "dependencies": {
+  }
+}

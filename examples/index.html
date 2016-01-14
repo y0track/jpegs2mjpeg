@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test page</title>
+    <script>
+        function preventCaching() {
+            var baseSrc = 'http://127.0.0.1:8081';
+            document.getElementById("img1").src = baseSrc + '/ch1?' + ~~(1e6 * Math.random());
+            document.getElementById("img2").src = baseSrc + '/ch2?' + ~~(1e6 * Math.random());
+        }
+        window.onload = preventCaching;
+    </script>
+</head>
+<body>
+    <img id="img1" src="">
+    <img id="img2" src="">
+</body>
+</html>
